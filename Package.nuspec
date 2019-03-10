@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>FML.HttpService</id>
+    <version>1.0.0</version>
+    <authors>Francois Michael Louw</authors>
+    <owners>EngineeringHouse</owners>
+    <licenseUrl>https://github.com/MikeyLouw/HttpService/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/MikeyLouw/HttpService</projectUrl>
+    <iconUrl>http://ICON_URL_HERE_OR_DELETE_THIS_LINE</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Basic Http CRUD operations with exceptions added</description>
+    <releaseNotes>Initial release</releaseNotes>
+    <copyright>Copyright 2019</copyright>
+    <tags>HttpClient</tags>
+    <dependencies>
+      <dependency id="Newtonsoft.Json" version="12.0.1" />
+    </dependencies>
+  </metadata>
+  <files>
+	<file src="HttpService\bin\Release\netstandard2.0\HttpService.dll" target="lib\HttpService.dll" />
+	<file src="HttpService\bin\Release\netstandard2.0\HttpService.xml" target="lib\HttpService.xml" />
+  </files>
+</package>
